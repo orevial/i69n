@@ -1,5 +1,6 @@
 // ignore_for_file: prefer_single_quotes
 import 'package:i69n/i69n.dart';
+import 'package:i69n/src/en.dart';
 import 'package:i69n/src/i69n_impl.dart';
 import 'package:test/test.dart';
 import 'package:yaml/yaml.dart';
@@ -12,21 +13,27 @@ void main() {
         isDefault: true,
         defaultObjectName: 'Messages',
         objectName: 'Messages',
-        languageCode: 'en',
-        localeName: 'en');
+        languageCode: 'fr',
+        localeName: 'fr');
     testMeta('messages_cs',
         isDefault: false,
         defaultObjectName: 'Messages',
         objectName: 'Messages_cs',
         languageCode: 'cs',
         localeName: 'cs');
+    testMeta('messages_en',
+        isDefault: false,
+        defaultObjectName: 'Messages',
+        objectName: 'Messages_en',
+        languageCode: 'en',
+        localeName: 'en');
 
     testMeta('domainMessages',
         isDefault: true,
         defaultObjectName: 'DomainMessages',
         objectName: 'DomainMessages',
-        languageCode: 'en',
-        localeName: 'en');
+        languageCode: 'fr',
+        localeName: 'fr');
     testMeta('domainMessages_cs',
         isDefault: false,
         defaultObjectName: 'DomainMessages',

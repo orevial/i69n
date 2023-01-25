@@ -74,8 +74,8 @@ ClassMeta generateMessageObjectName(String fileName) {
   if (nameParts.length == 1) {
     result.objectName = result.defaultObjectName;
     result.isDefault = true;
-    result.languageCode = 'en';
-    result.localeName = 'en';
+    result.languageCode = 'fr';
+    result.localeName = 'fr';
     return result;
   } else {
     result.defaultFileName = '${nameParts[0]}.i69n.dart';
